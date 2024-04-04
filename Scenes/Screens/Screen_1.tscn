@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://lfr3d42c4mo1"]
+
+[ext_resource type="PackedScene" uid="uid://c20hsldkk8hay" path="res://Scenes/Characters/ninjafrog.tscn" id="1_268s6"]
+[ext_resource type="PackedScene" uid="uid://dim8s6recrkq3" path="res://Scenes/Escenarios/escenario_1.tscn" id="2_i8044"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="TileMap" parent="." instance=ExtResource("2_i8044")]
+scale = Vector2(2, 2)
+
+[node name="ninja_frog" parent="." instance=ExtResource("1_268s6")]
