@@ -9,6 +9,6 @@
 [node name="TileMap" parent="." instance=ExtResource("2_i8044")]
 
 [node name="ninja_frog" parent="." instance=ExtResource("1_268s6")]
-position = Vector2(200, 312)
+position = Vector2(2005, 272)
 
 [node name="ParallaxBackground" parent="." instance=ExtResource("3_525h6")]

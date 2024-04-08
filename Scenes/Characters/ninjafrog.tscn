@@ -474,7 +474,7 @@ script = ExtResource("1_iq8dr")
 
 [node name="animaciones" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_coagu")
-animation = &"Idle"
+animation = &"Wall_jump"
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
 visible = false
@@ -498,7 +498,7 @@ wait_time = 0.1
 one_shot = true
 
 [node name="raycast_wall_jump" type="RayCast2D" parent="."]
-target_position = Vector2(10.5, 0)
+target_position = Vector2(11, 0)
 
 [connection signal="animation_finished" from="animaciones" to="." method="_on_animaciones_animation_finished"]
 [connection signal="timeout" from="Coyote_timer" to="." method="_on_coyote_timer_timeout"]
